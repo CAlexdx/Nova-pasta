@@ -1,0 +1,17 @@
+# Dependências (essa pasta é baixada pelo comando npm install)
+node_modules/
+
+# Banco de dados local (geralmente não enviamos o arquivo .db para o git)
+*.db
+*.db-journal
+
+# Logs do NPM
+npm-debug.log*
+
+# Arquivos de configuração do VS Code e Sistema
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Variáveis de ambiente (caso você use no futuro)
+.env
